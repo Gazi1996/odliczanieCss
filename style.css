@@ -1,0 +1,93 @@
+body
+{
+    margin:0;
+}
+
+#box 
+{
+    width: 300px;
+    height: 200px;
+    background-color:aqua;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.liczba
+{
+    width: 300px;
+    height: 200px;
+    display: block;
+    text-align: center;
+    color:white; 
+    padding-top:30px;
+    box-sizing: border-box;
+    font-size: 60px;
+    position: relative;
+    -webkit-animation: odliczanie 9s ; /* Safari 4+ */
+      -moz-animation:  odliczanie 9s ; /* Fx 5+ */
+      -o-animation:    odliczanie 9s ; /* Opera 12+ */
+      animation:       odliczanie 9s ; /* IE 10+, Fx 29+ */
+}
+
+@keyframes odliczanie
+{
+    0%
+    {
+        top: -2000px;
+    }
+    
+    10%
+    {
+        top: -1800px;
+    }
+    
+    20%
+    {
+        top: -1600px;
+    }
+    
+    30%
+    {
+        top: -1400px;
+    }
+    
+    40%
+    {
+        top: -1200px;
+    }
+    
+    50%
+    {
+        top: -1000px;
+    }
+    
+    60%
+    {
+        top: -800px;
+    }
+    
+    70%
+    {
+        top: -600px;
+    }
+    
+    80%
+    {
+        top: -400px;
+    }
+    
+    90%
+    {
+        top: -200px;
+    }
+    
+    100%
+    {
+        top: 0;
+    }
+}
+
+
+
+
+
